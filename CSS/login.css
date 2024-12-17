@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    /* background-color: aliceblue; */
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('/images/mobilelegend.webp');
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+
+
+.google-main {
+    background-color: white;
+    padding: 100px;
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+
+}
+
+
+.logo img {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+.google-form input {
+    width: 100%;
+    padding: 20px;
+    margin: 8px auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+
+}
+
+
+.google-form input[type=email],
+input[type=text] {
+
+    color: black;
+    font-size: 20px;
+    color: black;
+
+}
+
+
+
+.login-cancel {
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+.message p {
+    margin-bottom: 20px;
+}
+
+
+
+
+.login-cancel .login button {
+    padding: 18px 42px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+   font-size: 20px;
+    margin-right: 30px;
+
+}
+
+.login button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cancel button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* .login button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+} */
+
+
+.login-cancel .cancel button {
+    padding: 18px 42px;
+    border-radius: 30px;
+    background-color: white;
+
+
+    margin-right: 30px;
+}
+
+.cancel button a{
+
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+/* use media query to resize the the screen size */
+
+
+@media only screen and (max-width: 900px) {
+
+
+
+    .google-main {
+
+        width: 600px;
+
+
+
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+
+
+    .google-main {
+
+        width: 400px;
+        padding: 30px;
+
+        margin: 100px auto;
+
+
+
+    }
+
+
+    .google-form input[type=email],
+    input[type=text] {
+
+        color: black;
+        font-size: 16px;
+        color: black;
+
+    }
+
+
+
+    .login-cancel .login button {
+        padding: 8px 16px;
+        font-size: 16px;
+     
+    
+    }
+    .login-cancel .cancel button {
+        padding: 8px 16px;
+        font-size: 16px;
+     
+    
+    }
+}
+
+
+@media only screen and (max-width: 440px) {
+
+
+
+    .google-main {
+
+        width: 360px;
+        padding: 30px;
+
+        margin: 100px auto;
+
+
+
+    }
+
+
+    .google-form input[type=email],
+    input[type=text] {
+
+
+        font-size: 16px;
+
+
+    }
+
+
+    
+
+.login-cancel .login button {
+    padding: 8px 16px;
+    font-size: 16px;
+ 
+
+}
+.login-cancel .cancel button {
+    padding: 8px 16px;
+    font-size: 16px;
+ 
+
+}
+
+
+}

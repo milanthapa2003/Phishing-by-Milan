@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box
+
+
+
+}
+
+
+body,html{
+
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color:#f7f7f7;
+  width: 100%;
+  height: auto;
+
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+  url('/images/mobilelegend.webp');
+ 
+  
+  
+}
+
+
+
+
+.main{
+
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url('/images/Mobile\ Legends.jpg');
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 200px;
+    text-align: center;
+    padding: 150px;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    color: white;
+    
+
+}
+
+.main h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: rgb(67, 184, 251);
+    font-size: 70px;
+    text-shadow: 2px 2px #FF0000;
+}
+.main p{
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+.button{
+    background-color: aliceblue;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: rgb(62, 62, 244);
+   
+    cursor: pointer;
+    border-radius: 10px;
+
+    transition: linear all 0.3s ease-in-out;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+.button:hover{
+    background-color:rgb(72, 72, 250) ;
+}
+.down-arrow{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+   
+}
+
+
+/* media query for index section */
+
+
+@media only screen and (max-width: 825px) {
+
+
+
+    .main{
+
+ 
+       
+
+        margin: 60px 30px;
+     
+        padding: 50px;
+        
+    
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+        color: white;
+        
+    
+    }
+    
+
+    
+.main h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+    color:rgb(67, 184, 251);
+    font-size: 40px;
+}
+.main p{
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 825px) {
+
+
+    
+
+}
+
